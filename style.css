@@ -48,7 +48,7 @@ body{
     .site-bar{
         color: #fff;
         font-size: 27px;
-        /* padding-left: 100px; */
+        transform: rotatez(-180deg);
     }
     .site-section-texts{
         width: 100%;
@@ -76,14 +76,17 @@ body{
         margin-top: 10px;
         width: 320px;
     }
-    .divs-wrapper {
-        max-width: 305px;
-        width: 100%;
-        height: 122px;
-        margin: 0 auto;
+    .site-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+    .divs-container {
+        max-width: 100%;
         margin-top: 31px;
     }
-    .div--text {
+    .section__button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -93,31 +96,203 @@ body{
         border-radius: 50%;
         background-color: #DA4533;
     }
-
     .div--border {
-        margin-top: -91px;
+        margin-top: -94px;
         max-width: 300px;
         width: 100%;
         height: 93px;
-        border: none;
         border-radius: 50%;
         background-color: transparent;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
         transition: all 0.6s;
+        margin-left: -2px;
+        border: 2px solid   #fff;
     }
-
-    @keyframes border-rotate {
-        from {
-            transform: rotateZ(0);
-        }
-        to {
-            transform: matrix(0.99, -0.11, 0.11, 0.99, 0, 0);
-        }
-    }
-
     .div--border:hover {
-        border: 2px solid #fff;
-        animation-name: border-rotate;
+        transform: rotateZ(-6deg);
+    }
+    .site__arrow-button{
+        width: 135px;
+        height: 41px;
+        background-color: transparent;
+        border: 1px solid #DA4533;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 26px;
+    }
+
+    .site__arrow-button-text{
+        font-size: 14px;
+        color: #DA4533;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 10px;
+    }
+
+    .site-arrow__container{
+        display: flex;
+        margin-top: 15px;
+    }
+    .arrow-right{
+        width: 30px;
+        height: 10px;
+        background-image: url('img/Arrow\ .png');
+        transition: all 1s;
+        background-repeat: no-repeat;
+        margin-right: -40px;
+        transform: translateX(0px)
+    }
+    .site__arrow-button:hover > .arrow-right{
+        transform: translateX(10px)
+    }
+    .site-section2__texts{
+        margin-left: 20px;
+        max-width: 100%;
+        margin-top: 55px;
+    }
+    .site-section2__text1{
+        font-size: 24px;
+        color: #fff;
+        font-family: 'STIX Two Text', serif;
+    }
+    .site-section2__text2{
+        font-size: 14px;
+        color: #8A8A8A;
+        width: 320px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 12px;
+    }
+    .site-section3__cards{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .site-section3__card{
+        margin-top: 15px;
+        width: 320px;
+        height: 76px;
+        border: 2px solid;
+        background: linear-gradient(118.25deg, #DA4533 0%, rgba(218, 69, 51, 0) 33.76%),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+        border-radius: 8px;
+    }
+    .site-section3__card1{
+        margin-top: 15px;
+        width: 320px;
+        height: 99px;
+        border: 2px solid;
+        background: linear-gradient(118.25deg, #DA4533 0%, rgba(218, 69, 51, 0) 33.76%),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+        border-radius: 8px;
+        padding-bottom: 0;
+    }
+    .site-section3__card2{
+        margin-top: 15px;
+        width: 320px;
+        height: 60px;
+        border: 2px solid;
+        background: linear-gradient(118.25deg, #DA4533 0%, rgba(218, 69, 51, 0) 33.76%),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+        border-radius: 8px;
+    }
+    .site-section3__incard{
+        width: 319px;
+        height: 77px;
+        border-radius: 8px;
+        background-color: #1F1F1F;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .site-section3__incard1{
+        width: 320px;
+        height: 99px;
+        border-radius: 8px;
+        background-color: #1F1F1F;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .site-section3__incard2{
+        width: 320px;
+        height: 60px;
+        border-radius: 8px;
+        background-color: #1F1F1F;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .site-section3__incard-text1{
+        color: #fff;
+        font-size: 24px;
+        font-family: 'STIX Two Text', serif;
+    }
+    .site-section3__incard-text2{
+        font-size: 14px;
+        width: 217px;
+        font-family: 'Montserrat', sans-serif;
+        color: #8A8A8A;
+    }
+    .site-section3__cards{
+        margin-top: 39px;
+    }
+    .site-section4__incard{
+        margin-top: 15px;
+        width: 320px;
+        height: 76px;
+        border-radius: 8px;
+        background-color: #1F1F1F;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .site-section4-img{
+        width: 172px;
+        height: 33px;
+        background-image: url(img/sec4-card1.png);
+        background-repeat: no-repeat;
+    }
+    .site-section4-img1{
+        width: 131px;
+        height: 61px;
+        background-image: url(img/sec4-card2.png);
+        background-repeat: no-repeat;
+    }
+    .site-section4-img2{
+        width: 95px;
+        height: 43px;
+        background-image: url(img/sec4-card3.png);
+        background-repeat: no-repeat;
+    }
+    .site-section4-img3{
+        width: 103px;
+        height: 42px;
+        background-image: url(img/sec4-card4.png);
+        background-repeat: no-repeat;
+    }
+    .site-section4-img4{
+        width: 148px;
+        height: 23px;
+        background-image: url(img/sec4-card5.png);
+        background-repeat: no-repeat;
+    }
+    .site-section4-img5{
+        width: 114px;
+        height: 41px;
+        background-image: url(img/sec4-card6.png);
+        background-repeat: no-repeat;
+    }
+    .site-2nd-part{
+        width: 360px;
+        max-width: 100%;
+        height: 1684px;
+        background-image: url(img/background_team.png);
+    }
+    .site-2nd-section__text1{
+        font-size: 24px;
+        color: #1b1b1b;
+        font-family: 'STIX Two Text', serif;
     }
 }
