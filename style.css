@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+@media(max-width:360px) {
+    #checkbox{
+        display: none;
+    }
+    .input-container{
+        max-width: 360px;
+        width: 100%;
+        height: 790px;
+        background-color: aqua;
+        margin-top: -70px;
+        display: none;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    #checkbox:checked ~ .input-container{
+        display: block;
+        animation-name: rotator;
+    }
+    @keyframes rotator {
+        from{
+            transform: translateX(360px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
+    .site-nav{
+        max-width: 100%;
+        width: 360px;
+        height: 70px;
+        background-color: #1B1B1B;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .site-logo{
+        width: 129px;
+        height: 29px;
+        background-image: url(img/logo\ \(2\).png);        background-repeat: no-repeat;
+    }
+    .site-bar{
+        color: #fff;
+        font-size: 27px;
+        /* padding-left: 100px; */
+    }
+    .site-section-texts{
+        width: 100%;
+        max-width: 100%;
+        }
+    .site-section-text1{
+        font-family: 'Montserrat', sans-serif;
+        color: #8A8A8A;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .site-section-text2{
+        color: #fff;
+        font-size: 34px;
+        text-align: center;
+        font-family: 'STIX Two Text', serif;
+    }
+    .site-section-text3{
+        font-family: 'Montserrat', sans-serif;
+        color: #8A8A8A;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 320px;
+    }
+    .divs-wrapper {
+        max-width: 305px;
+        width: 100%;
+        height: 122px;
+        margin: 0 auto;
+        margin-top: 31px;
+    }
+    .div--text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 299px;
+        width: 100%;
+        height: 91px;
+        border-radius: 50%;
+        background-color: #DA4533;
+    }
+
+    .div--border {
+        margin-top: -91px;
+        max-width: 300px;
+        width: 100%;
+        height: 93px;
+        border: none;
+        border-radius: 50%;
+        background-color: transparent;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        transition: all 0.6s;
+    }
+
+    @keyframes border-rotate {
+        from {
+            transform: rotateZ(0);
+        }
+        to {
+            transform: matrix(0.99, -0.11, 0.11, 0.99, 0, 0);
+        }
+    }
+
+    .div--border:hover {
+        border: 2px solid #fff;
+        animation-name: border-rotate;
+    }
+}
