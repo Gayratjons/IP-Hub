@@ -714,6 +714,8 @@ body {
         width: 280px;
         font-family: 'Montserrat', sans-serif;
         line-height: 20px;
+        font-size: 16px;
+        width: 200px;
     }
 
     .site-5th-part {
@@ -732,14 +734,34 @@ body {
     }
 
     .site-5th-part__img {
-        width: 320px;
-        height: 355px;
-        background-image: url(img/U.B.png);
+        width: 100%;
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .site-5th-part__img1 {
+        width: 210px;
+        height: 233px;
         border-radius: 5px;
         background-repeat: no-repeat;
         mix-blend-mode: luminosity;
+        background-image: url(img/unsplash_v29_2mG3BNE.png);
         margin: 0 auto;
         margin-top: 35px;
+        display: flex;
+    }
+
+    .site-5th-part__img2 {
+        width: 210px;
+        height: 233px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        mix-blend-mode: luminosity;
+        background-image: url(img/brat.png);
+        margin: 0 auto;
+        margin-top: 35px;
+        display: flex;
     }
 
     .site-5th-part__texts {
