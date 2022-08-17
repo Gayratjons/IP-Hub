@@ -681,7 +681,20 @@ body {
     }
 
     .site-4th-part__texts {
-        margin-top: 50px;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .divv {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .div2 {
+        margin-left: 30px;
     }
 
     .site-4th-part__card1-text {
@@ -722,8 +735,8 @@ body {
         width: 480px;
         height: auto;
         max-width: 100%;
-        background-image: url(img/backgroud_grey.png);
-        padding-bottom: 60px;
+        background-image: url(img/background_team\ \(1\).png);
+        background-repeat: no-repeat;
     }
 
     .site-5th-part__card {
@@ -766,20 +779,22 @@ body {
 
     .site-5th-part__texts {
         display: flex;
-        flex-direction: column;
-        padding-left: 20px;
         padding-top: 40px;
+        width: 100%;
+        max-width: 100%;
+        justify-content: space-around;
     }
 
     .site-5th-part__text {
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
         color: #1b1b1b;
+        padding-top: 15px;
     }
 
     .site-5th-part__intexts {
         display: flex;
-        width: 60%;
+        width: 50%;
         justify-content: space-between;
         padding-top: 20px;
     }
@@ -788,6 +803,10 @@ body {
         font-size: 16px;
         font-family: 'Montserrat', sans-serif;
         color: #1b1b1b;
+    }
+
+    .card-incards {
+        display: flex;
     }
 
     .card-incard {
@@ -809,7 +828,7 @@ body {
     .card-incard__text1 {
         font-size: 16px;
         font-family: 'Montserrat', sans-serif;
-        width: 225px;
+        /* width: 225px; */
         line-height: 25px;
     }
 
@@ -818,6 +837,7 @@ body {
         font-family: 'Montserrat', sans-serif;
         color: #5C5C5C;
         padding-top: 10px;
+        width: 270px;
     }
 
     .card-incard__text3 {
@@ -844,7 +864,7 @@ body {
     }
 
     .card-incard2__hr {
-        width: 320px;
+        width: 270px;
         height: 1px;
         background: rgb(218, 69, 51);
         background: linear-gradient(90deg, rgba(218, 69, 51, 1) 0%, rgba(226, 133, 122, 1) 48%, rgba(255, 255, 255, 1) 100%);
@@ -1085,6 +1105,10 @@ body {
     .site-4th-part__texts {
         margin-left: -300px;
         margin-top: 100px;
+    }
+
+    .div2 {
+        display: none;
     }
 
     #checkbox {
@@ -1781,6 +1805,14 @@ body {
         display: flex;
         flex-direction: column;
         padding-top: 25px;
+    }
+
+    .site-5th-part__img1 {
+        display: none;
+    }
+
+    .site-5th-part__img2 {
+        display: none;
     }
 
     .site-5th-part__img {
