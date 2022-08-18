@@ -538,7 +538,7 @@ body {
     .site-3rd-part-card1 {
         width: 680px;
         height: auto;
-        margin: 0 auto;
+        margin-left: 21px;
         background-color: #1b1b1b;
         padding-bottom: 50px;
     }
@@ -637,7 +637,7 @@ body {
         width: 440px;
         height: auto;
         background-color: #1b1b1b;
-        margin: 0 auto;
+        margin-left: 21px;
         display: flex;
         flex-direction: column;
         align-items: center;
