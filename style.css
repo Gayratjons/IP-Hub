@@ -29,8 +29,8 @@ body {
     }
 
     .input-container {
-        max-width: 480px;
         width: 100%;
+        max-width: 100%;
         height: 100vh;
         background-color: #444444;
         margin-top: -70px;
@@ -41,7 +41,7 @@ body {
 
     .input-incontainer {
         max-width: 100%;
-        width: 372px;
+        width: 605px;
         height: 100vh;
         background-color: #101010;
         margin-left: auto;
@@ -79,7 +79,7 @@ body {
         background-color: #1B1B1B;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .site-logo {
@@ -144,10 +144,12 @@ body {
     .site-1st-part__image {
         width: 327px;
         height: 327px;
+        max-width: 100%;
         background-image: url(img/image_0\ \(1\).png);
         background-repeat: no-repeat;
         margin-left: -250px;
         margin-top: 50px;
+        margin-right: 1px;
     }
 
     .divs-container {
@@ -203,6 +205,7 @@ body {
         margin-top: 26px;
         text-decoration: none;
         margin-left: 42px;
+        position: relative;
     }
 
     .location {
@@ -252,9 +255,13 @@ body {
     .site-section2__text2 {
         font-size: 16px;
         color: #8A8A8A;
-        width: 480px;
+        width: 720px;
         font-family: 'Montserrat', sans-serif;
         margin-top: 12px;
+    }
+
+    .w480 {
+        width: 480px;
     }
 
     .site-section3__cards {
@@ -283,6 +290,12 @@ body {
         background: linear-gradient(118.25deg, #DA4533 0%, rgba(218, 69, 51, 0) 33.76%),
             linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
         border-radius: 8px;
+    }
+
+    .center {
+        position: relative;
+        left: 550px;
+        top: -550px;
     }
 
     .site-section3__incard {
@@ -670,7 +683,7 @@ body {
     }
 
     .site-4th-part {
-        width: 480px;
+        width: 100%;
         max-width: 100%;
         background-color: #171717;
         padding-bottom: 55px;
@@ -686,7 +699,7 @@ body {
     }
 
     .site-4th-part__card1 {
-        width: 440px;
+        width: 720px;
         height: 320px;
         background-color: #1f1f1f;
         margin: 0 auto;
@@ -695,7 +708,7 @@ body {
     }
 
     .site-4th-part__cirkle {
-        width: 160px;
+        width: 354px;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -713,8 +726,10 @@ body {
     }
 
     .divv {
-        display: flex;
         margin-top: 10px;
+        width: 98%;
+        display: flex;
+        justify-content: space-around;
     }
 
     .div2 {
@@ -723,7 +738,7 @@ body {
 
     .site-4th-part__card1-text {
         margin: auto 0;
-        font-size: 30px;
+        font-size: 36px;
         color: #fff;
         opacity: 0.6;
         font-weight: 500;
@@ -735,7 +750,7 @@ body {
         color: #8A8A8A;
         font-size: 30px;
         display: flex;
-        margin-left: 680px;
+        margin-left: 1040px;
     }
 
     .card_text {
@@ -744,11 +759,12 @@ body {
         padding-left: 15px;
         padding-top: 35px;
         line-height: 25.1px;
+        width: 400px;
     }
 
     .site-4th-part_text {
         padding-left: 15px;
-        width: 280px;
+        width: 404px;
         font-family: 'Montserrat', sans-serif;
         line-height: 20px;
         font-size: 16px;
@@ -756,10 +772,10 @@ body {
     }
 
     .site-5th-part {
-        width: 480px;
+        width: 768px;
         height: auto;
         max-width: 100%;
-        background-image: url(img/background_team\ \(1\).png);
+        background-image: url(img/background_team\ \(2\).png);
         background-repeat: no-repeat;
         padding-bottom: 52px;
     }
@@ -767,7 +783,6 @@ body {
     .site-5th-part__card {
         padding-left: 20px;
         display: flex;
-        flex-direction: column;
         padding-top: 25px;
     }
 
@@ -802,12 +817,26 @@ body {
         display: flex;
     }
 
+    .site-5th-part__img3 {
+        width: 210px;
+        height: 233px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        mix-blend-mode: luminosity;
+        background-image: url(img/kenayi.png);
+        margin: 0 auto;
+        margin-top: 35px;
+        display: flex;
+    }
+
     .site-5th-part__texts {
         display: flex;
         padding-top: 40px;
-        width: 480px;
+        width: 100%;
         max-width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .site-5th-part__text {
@@ -819,9 +848,10 @@ body {
 
     .site-5th-part__intexts {
         display: flex;
-        width: 50%;
+        width: 33%;
         justify-content: space-between;
         padding-top: 20px;
+        margin-right: 40px;
     }
 
     .site-5th-part__text1 {
@@ -832,10 +862,12 @@ body {
 
     .card-incards {
         display: flex;
+        width: 400px;
     }
 
     .card-incard {
-        display: flex;
+        /* display: flex; */
+        width: 270px;
     }
 
     .card-incard__img {
@@ -846,15 +878,14 @@ body {
         mix-blend-mode: luminosity;
     }
 
-    .card-incard__texts {
-        padding-left: 15px;
-    }
+    .card-incard__texts {}
 
     .card-incard__text1 {
         font-size: 16px;
         font-family: 'Montserrat', sans-serif;
         /* width: 225px; */
         line-height: 25px;
+        width: 200px;
     }
 
     .card-incard__text2 {
@@ -936,7 +967,7 @@ body {
     }
 
     .site-5th-part__hr {
-        width: 320px;
+        width: 728px;
         height: 1px;
         margin: 0 auto;
         background: rgb(138, 138, 138);
@@ -956,22 +987,31 @@ body {
     }
 
     .site-6th-part {
-        width: 480px;
+        width: 100%;
         max-width: 100%;
         height: auto;
         background-color: #DA4533;
         padding-bottom: 40px;
+        display: flex;
     }
 
     .site-6th-inpart {
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .site-6th-part__img {
+        width: 265px;
+        height: 250px;
+        background-image: url(img/Group\ 248.png);
+        margin: auto 0;
+        margin-left: 20px;
     }
 
     .site-6th-part__text1 {
         font-size: 28px;
         width: 440px;
-        text-align: center;
         color: #fff;
         font-family: 'STIX Two Text', serif;
         margin: 0 auto;
@@ -981,11 +1021,11 @@ body {
     .site-6th-part__text2 {
         font-size: 16px;
         width: 440px;
-        text-align: center;
         color: #fff;
         font-family: 'Montserrat', sans-serif;
         margin: 0 auto;
         padding-top: 12px;
+        opacity: 0.7;
     }
 
     .bgc {
@@ -998,14 +1038,14 @@ body {
     }
 
     footer {
-        width: 480px;
+        width: 100%;
         max-width: 100%;
         background-color: #1b1b1b;
     }
 
     .footer-part1 {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .footer-part1__img {
@@ -1018,6 +1058,7 @@ body {
     }
 
     .footer-part1__container {
+        padding-top: 30px;
         padding-left: 20px;
         display: flex;
         flex-direction: column;
@@ -1077,7 +1118,7 @@ body {
     }
 
     .footer_hr {
-        width: 440px;
+        width: 728px;
         height: 1px;
         background: rgb(85, 85, 85);
         background: linear-gradient(90deg, rgba(85, 85, 85, 1) 0%, rgba(25, 25, 25, 1) 100%);
@@ -1115,33 +1156,30 @@ body {
     }
 
     .footer-part2__part3 {
-        margin-right: 105px;
-        margin-top: 30px;
-        margin-right: 170px;
+        /* margin-right: 105px; */
+        /* margin-top: 30px; */
+        /* margin-right: 170px; */
 
     }
 
     .footer-part2__part3-links {
-        display: flex;
         width: 200px;
-        justify-content: space-between;
     }
 
     .footer-part3 {
+        padding-right: 20px;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        flex-direction: row-reverse;
         margin-left: 50px;
         padding-top: 35px;
+        padding-bottom: 40px;
     }
 
     .padding {
         padding-top: 10px;
     }
 }
-
-
-
-
 
 @media(max-width:480px) {
     #checkbox {
@@ -1873,7 +1911,6 @@ body {
     .site-5th-part__card {
         padding-left: 20px;
         display: flex;
-        flex-direction: column;
         padding-top: 25px;
     }
 
@@ -2248,7 +2285,6 @@ body {
         padding-top: 10px;
     }
 }
-
 
 @media(max-width:360px) {
     body {
