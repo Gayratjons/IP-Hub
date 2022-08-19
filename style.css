@@ -236,7 +236,7 @@ body {
 
     .location {
         position: relative;
-        top: -620px;
+        top: -630px;
         left: 730px;
     }
 
@@ -455,9 +455,10 @@ body {
 
     .site-2nd-part__main-section {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 95%;
         max-width: 100%;
+        margin-right: 0;
     }
 
     .site-2nd-part-section {
@@ -497,14 +498,19 @@ body {
     }
 
     .site-2nd-part__card-img {
-        width: 129px;
-        height: 145px;
-        background-image: url(img/Vector.png);
+        width: 160px;
+        height: 175px;
+        background-image: url(img/Vectorr.png);
         background-repeat: no-repeat;
     }
 
+    .img1 {
+        background-image: url(img/Vector_3.png);
+        width: 161px;
+    }
+
     .img2 {
-        background-image: url(img/Vector.png);
+        background-image: url(img/Vector_1.png);
     }
 
     .site-2nd-part__text {
