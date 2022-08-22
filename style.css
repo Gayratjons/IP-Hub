@@ -38,22 +38,11 @@ body {
 }
 
 .input-container {
-    width: 100%;
-    max-width: 100%;
-    height: 100vh;
-    background-color: #444444;
-    margin-top: -70px;
     display: none;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
 }
 
 .input-incontainer {
-    max-width: 100%;
-    width: 605px;
-    height: 100vh;
-    background-color: #101010;
-    margin-left: auto;
+    display: none;
 }
 
 .input-container__text {
@@ -99,13 +88,7 @@ body {
 }
 
 .site-bar {
-    color: #fff;
-    font-size: 27px;
-    transform: rotatez(-180deg);
-    z-index: 1000;
-    background-color: #272727;
-    padding: 5px;
-    border-radius: 7px;
+    display: none;
 }
 
 .site__links {
@@ -453,7 +436,10 @@ body {
     width: 100%;
     max-width: 100%;
     height: 777px;
-    background-image: url(img/backgroud_grey.png);
+    background-image: url(img/background_team\ \(4\).png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
     position: relative;
     padding-bottom: 125px;
 }
@@ -848,6 +834,10 @@ body {
     margin-right: 60px;
 }
 
+.card-incard__texts {
+    width: 270px;
+}
+
 .site-4th-part__card1-text {
     margin: auto 0;
     font-size: 36px;
@@ -890,6 +880,7 @@ body {
     background-image: url(img/background_team\ \(4\).png);
     background-repeat: no-repeat;
     padding-bottom: 52px;
+    margin-left: auto;
 }
 
 .ml352 {
@@ -900,6 +891,8 @@ body {
     padding-left: 20px;
     display: flex;
     padding-top: 25px;
+    margin-left: 300px;
+
 }
 
 .site-5th-part__img {
@@ -962,11 +955,10 @@ body {
 .site-5th-part__texts {
     display: flex;
     padding-top: 40px;
-    width: 100%;
+    width: 75%;
     max-width: 100%;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 0 auto;
 }
 
 .site-5th-part__text {
@@ -978,7 +970,7 @@ body {
 
 .site-5th-part__intexts {
     display: flex;
-    width: 33%;
+    width: 23%;
     justify-content: space-between;
     padding-top: 20px;
     margin-right: 40px;
@@ -997,7 +989,6 @@ body {
 
 .card-incard {
     display: flex;
-    width: 350px;
 }
 
 .card-incard__img {
@@ -1008,12 +999,9 @@ body {
     mix-blend-mode: luminosity;
 }
 
-.card-incard__texts {}
-
 .card-incard__text1 {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    /* width: 225px; */
     line-height: 25px;
     width: 200px;
 }
@@ -1097,7 +1085,7 @@ body {
 }
 
 .site-5th-part__hr {
-    width: 728px;
+    width: 1000px;
     height: 1px;
     margin: 0 auto;
     background: rgb(138, 138, 138);
@@ -1105,8 +1093,8 @@ body {
 }
 
 .card-incard__img2 {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-image: url(img/Ellipse\ 7.png);
     background-repeat: no-repeat;
     mix-blend-mode: luminosity;
@@ -1123,6 +1111,7 @@ body {
     background-color: #DA4533;
     padding-bottom: 40px;
     display: flex;
+    justify-content: center;
 }
 
 .site-6th-inpart {
@@ -1175,7 +1164,8 @@ footer {
 
 .footer-part1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding-top: 60px;
 }
 
 .footer-part1__img {
@@ -1190,7 +1180,6 @@ footer {
 
 .footer-part1__container {
     padding-top: 30px;
-    /* padding-left: 20px; */
     display: flex;
     margin-bottom: 35px;
     margin-left: 10px;
@@ -1200,13 +1189,15 @@ footer {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     color: #8a8a8a;
-    width: 328px;
+    width: 515px;
+    margin-left: 20px;
     text-decoration: none;
+    padding-top: 20px;
 }
 
 .f_part1_hrefs {
     display: block;
-    margin-right: 0;
+    margin-left: 184px;
     width: 290px;
 }
 
@@ -1253,7 +1244,7 @@ footer {
 }
 
 .footer_hr {
-    width: 960px;
+    width: 1200px;
     height: 1px;
     background: rgb(85, 85, 85);
     background: linear-gradient(90deg, rgba(85, 85, 85, 1) 0%, rgba(25, 25, 25, 1) 100%);
@@ -1295,11 +1286,12 @@ footer {
 }
 
 .footer-part3 {
+    margin: 0 auto;
+    width: 77%;
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin-left: 50px;
     padding-top: 35px;
     padding-bottom: 40px;
 }
@@ -1330,6 +1322,7 @@ footer {
         display: none;
         animation-duration: 1s;
         animation-fill-mode: forwards;
+        z-index: 1000;
     }
 
     .input-incontainer {
@@ -1727,8 +1720,9 @@ footer {
         width: 100%;
         max-width: 100%;
         height: 777px;
-        background-image: url(img/backgroud_grey.png);
+        background-image: url(img/background_team\ \(3\).png);
         position: relative;
+        background-repeat: no-repeat;
         padding-bottom: 125px;
     }
 
@@ -2241,8 +2235,6 @@ footer {
         background-repeat: no-repeat;
         mix-blend-mode: luminosity;
     }
-
-    .card-incard__texts {}
 
     .card-incard__text1 {
         font-size: 16px;
