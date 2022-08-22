@@ -1327,7 +1327,7 @@ footer {
 
     .input-incontainer {
         max-width: 100%;
-        width: 605px;
+        height: auto;
         height: 100vh;
         background-color: #101010;
         margin-left: auto;
