@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'STIX Two Text', serif;
+*/
+
+.DA4533 {
+    color: #DA4533;
+}
+
+body {
+    background-color: black;
+}
+
+@media(max-width: 360px) {
+    .container {
+        max-width: 360px;
+        width: 100%;
+        height: 100px;
+        background-color: red;
+        margin: 0 auto;
+    }
+
+    nav {
+        max-width: 360px;
+        width: 100%;
+        height: 70px;
+        background-color: #1b1b1b;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .site-logo {
+        width: 129px;
+        height: 29px;
+    }
+
+    .site-bar {
+        width: 46px;
+        height: 46px;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    .site-section1 {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .section1_part2 {
+        display: none;
+    }
+
+    .section1-part1__part1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .cirkle {
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border: 1px solid #DA4533;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .arrow {
+        width: 30px;
+        height: 9px;
+        position: absolute;
+        left: -15px;
+        top: 9px;
+        transition: all 1s;
+    }
+
+    .cirkle:hover>.arrow {
+        transform: translateX(-15px);
+    }
+
+    .site-section1__link {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 10px;
+        color: #8A8A8A;
+    }
+
+    .site-section1__link1 {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 10px;
+        color: #DA4533;
+    }
+
+    .section1-part1__part2 {
+        font-size: 24px;
+        color: #fff;
+        padding-top: 31px;
+    }
+
+    .site-section2 {
+        max-width: 320px;
+        width: 89%;
+        height: 46px;
+        background-color: transparent;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .site-insection2 {
+        width: 100%;
+        height: 46px;
+        border: none;
+        outline: none;
+        background-color: #1b1b1b;
+        border-radius: 5px;
+        padding-left: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
