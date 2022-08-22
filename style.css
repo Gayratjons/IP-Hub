@@ -459,6 +459,8 @@ body {
         width: 95%;
         max-width: 100%;
         margin-right: 0;
+        margin: 0 auto;
+
     }
 
     .site-2nd-part-section {
@@ -494,7 +496,13 @@ body {
         color: #8A8A8A;
         font-size: 40px;
         display: flex;
-        margin-left: 170px;
+        margin-left: 250px;
+    }
+
+    .location1 {
+        position: relative;
+        /* top: -510px; */
+        left: -270px;
     }
 
     .site-2nd-part__card-img {
