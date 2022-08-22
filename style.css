@@ -841,14 +841,11 @@ body {
 
 .divv {
     margin-top: 10px;
-    width: 90%;
+    width: 85%;
     display: flex;
     justify-content: space-around;
-    margin-left: 0px;
-}
-
-.div2 {
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: 60px;
 }
 
 .site-4th-part__card1-text {
@@ -895,6 +892,10 @@ body {
     padding-bottom: 52px;
 }
 
+.ml352 {
+    margin-left: 252px;
+}
+
 .site-5th-part__card {
     padding-left: 20px;
     display: flex;
@@ -902,43 +903,57 @@ body {
 }
 
 .site-5th-part__img {
-    width: 100%;
+    width: 85%;
     margin-top: 35px;
     display: flex;
     justify-content: space-around;
+    margin-left: auto;
+    margin-right: 25px;
 }
 
 .site-5th-part__img1 {
-    width: 307px;
-    height: 340px;
+    width: 289px;
+    height: 320px;
     border-radius: 5px;
     background-repeat: no-repeat;
     mix-blend-mode: luminosity;
-    background-image: url(img/kenai.png);
+    background-image: url(img/R.n.png);
     margin: 0 auto;
     margin-top: 35px;
     display: flex;
 }
 
 .site-5th-part__img2 {
-    width: 307px;
-    height: 340px;
+    width: 289px;
+    height: 320px;
     border-radius: 5px;
     background-repeat: no-repeat;
     mix-blend-mode: luminosity;
-    background-image: url(img/oka.png);
+    background-image: url(img/brat-2.png);
     margin: 0 auto;
     margin-top: 35px;
     display: flex;
 }
 
 .site-5th-part__img3 {
-    width: 307px;
-    height: 340px;
+    width: 289px;
+    height: 320px;
     border-radius: 5px;
     background-repeat: no-repeat;
     mix-blend-mode: luminosity;
-    background-image: url(img/kenayi-1.png);
+    background-image: url(img/kenayii.png);
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+}
+
+.site-5th-part__img4 {
+    width: 289px;
+    height: 320px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    mix-blend-mode: luminosity;
+    background-image: url(img/jon.png);
     margin: 0 auto;
     margin-top: 35px;
     display: flex;
