@@ -1473,6 +1473,10 @@ body {
         align-items: center;
     }
 
+    .select-div {
+        display: none;
+    }
+
     .site-logo {
         width: 129px;
         height: 29px;
@@ -2157,7 +2161,6 @@ body {
     }
 
     .divs-container {
-
         max-width: 100%;
         padding-top: 30px;
         margin: 0 auto;
@@ -2340,6 +2343,10 @@ body {
         display: flex;
         width: 200px;
         justify-content: space-between;
+    }
+
+    .select-div {
+        display: none;
     }
 
     .footer-part3 {
