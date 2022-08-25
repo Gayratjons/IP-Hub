@@ -15,7 +15,7 @@ body {
     */
 p {
     font-family: 'Montserrat', sans-serif;
-    line-height: 21px;
+    line-height: 22px;
 }
 
 @media(max-width: 360px) {
@@ -480,6 +480,7 @@ p {
 
     .site-7th-section {
         padding: 0 20px;
+        padding-bottom: 60px;
     }
 
     .section7-text {
@@ -504,6 +505,7 @@ p {
         width: 150px;
         display: flex;
         justify-content: center;
+        margin: 0 auto;
     }
 
     .sec5-arrow_buton {
@@ -534,15 +536,6 @@ p {
         transition: all 1s;
     }
 
-    /* .arrow2 {
-        width: 40px;
-        height: 9px;
-        position: absolute;
-        left: 110px;
-        top: 13px;
-        transition: all 1s;
-    } */
-
     .sec5-arrow_buton1:hover>.arrow1 {
         transform: translate(-21px);
     }
@@ -556,5 +549,111 @@ p {
         font-size: 14px;
         color: #fff;
         opacity: 0.6;
+    }
+
+    .section7__cards {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section7_card {
+        width: 140px;
+    }
+
+    .section7_card1 {
+        width: 140px;
+    }
+
+    .section7-card__images {
+        display: flex;
+        align-items: center;
+    }
+
+    .sec7-card__text {
+        font-size: 14px;
+        color: #DA4533;
+    }
+
+    .sec7-card__text1 {
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .sec7__text {
+        font-size: 16px;
+        color: #fff;
+        padding-top: 35px;
+    }
+
+    ul {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    li {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        opacity: 0.4;
+        line-height: 22.4px;
+    }
+
+    .sec7__text2 {
+        font-size: 14px;
+        color: #fff;
+        opacity: 0.4;
+    }
+
+    .red_arrow {
+        font-size: 0;
+    }
+
+    .red_arrow1 {
+        color: #DA4533;
+        font-size: 30px;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+
+    .sec7-hover__card {
+        margin-top: 20px;
+        background-color: #1b1b1b;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        font-size: 14px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        border-radius: 7px;
+        transition: all 3s;
+    }
+
+    .hover_text {
+        font-size: 16px;
+        color: #fff;
+        opacity: 0.5;
+        transition: all 3s;
+        transform: translateY(-500px);
+        display: none;
+    }
+
+    .sec7-hover__card:hover~.hover_text {
+        display: block;
+        transform: translateY(20px);
+    }
+
+    .sec7-hover__card:hover>.red_arrow1 {
+        font-size: 0;
+    }
+
+    .sec7-hover__card:hover>.red_arrow {
+        color: #DA4533;
+        font-size: 30px;
+        position: absolute;
+        right: 10px;
+        top: 15px;
     }
 }
