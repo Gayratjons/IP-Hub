@@ -232,6 +232,7 @@ p {
         margin: 0 auto;
         margin-top: 60px;
         height: auto;
+        padding-bottom: 60px;
     }
 
     .section3_text {
@@ -282,10 +283,20 @@ p {
 
     .site-5th-section {
         width: 100%;
-        height: auto;
         background-image: url(complete_service/backgroud_red.png);
         background-repeat: no-repeat;
         padding-top: 60px;
+        position: relative;
+        padding-bottom: 60px;
+
+    }
+
+    .site-5th-part__img {
+        width: 137px;
+        height: 140px;
+        position: absolute;
+        right: 0;
+        top: -50px;
     }
 
     .fifth-part__card {
@@ -295,9 +306,9 @@ p {
         border-radius: 3px;
         margin: 0 auto;
         padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
     }
 
     .sec5-card_main {
@@ -325,8 +336,8 @@ p {
     }
 
     .site-section5__cards {
-        padding-top: 35px;
-        height: 500px;
+        padding-top: 15px;
+        height: 420px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -336,7 +347,7 @@ p {
     .site-section5_card {
         width: 100%;
         height: auto;
-        padding: 15px;
+        padding: 10px;
         background-color: #FFFFFF0D;
         color: #fff;
         font-family: 'Montserrat', sans-serif;
@@ -353,7 +364,7 @@ p {
 
     .section5-buttons {
         display: flex;
-        margin-top: 35px;
+        margin-top: 25px;
     }
 
     .section5_button1 {
@@ -391,7 +402,7 @@ p {
         width: 31px;
         height: 8px;
         position: absolute;
-        left: -15px;
+        left: -19px;
         top: 15px;
         transition: all 1s;
     }
@@ -405,11 +416,145 @@ p {
         transition: all 1s;
     }
 
+    .arrow3 {
+        width: 31px;
+        height: 8px;
+        position: absolute;
+        left: 19px;
+        top: 15px;
+        transition: all 1s;
+    }
+
+    .sec5-arrow_buton:hover>.arrow3 {
+        transform: translateX(17px);
+    }
+
     .section5_button1:hover>.arrow1 {
         transform: translateX(-17px);
     }
-}
 
-.section5_button2:hover>.arrow2 {
-    transform: translateX(17px);
+    .section5_button2:hover>.arrow2 {
+        transform: translateX(17px);
+    }
+
+    .site-5th-part__card2 {
+        width: 89%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: #1b1b1b;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .fifth-part__card1 {
+        display: flex;
+        font-size: 14px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        align-items: center;
+    }
+
+    .fifth-part__card2 {
+        padding-top: 10px;
+        display: flex;
+        font-size: 14px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        align-items: center;
+    }
+
+    .site-text {
+        display: none;
+    }
+
+    .fifth-part__card-img {
+        padding-right: 20px;
+    }
+
+    .fifth-part__card-img1 {
+        padding-right: 20px;
+    }
+
+    .site-7th-section {
+        padding: 0 20px;
+    }
+
+    .section7-text {
+        padding: 0;
+        width: 55%;
+        font-size: 24px;
+        color: #fff;
+        font-family: 'STIX Two Text', serif;
+    }
+
+    .section7__main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .section5-arrow_buttons {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec5-arrow_buton {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: 1px solid #DA4533;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    .sec5-arrow_buton1 {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: 1px solid #DA4533;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .arrow1 {
+        width: 40px;
+        height: 9px;
+        position: absolute;
+        left: -17px;
+        top: 13px;
+        transition: all 1s;
+    }
+
+    /* .arrow2 {
+        width: 40px;
+        height: 9px;
+        position: absolute;
+        left: 110px;
+        top: 13px;
+        transition: all 1s;
+    } */
+
+    .sec5-arrow_buton1:hover>.arrow1 {
+        transform: translate(-21px);
+    }
+
+    .sec5-arrow_buton:hover>.arrow2 {
+        transform: translate(21px);
+    }
+
+    .section7__text2 {
+        padding-top: 15px;
+        font-size: 14px;
+        color: #fff;
+        opacity: 0.6;
+    }
 }
