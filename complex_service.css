@@ -56,8 +56,6 @@ p {
         margin-top: 40px;
     }
 
-    .site-1th-part__part1 {}
-
     .first-part__text {
         font-size: 14px;
         color: #fff;
@@ -655,5 +653,51 @@ p {
         position: absolute;
         right: 10px;
         top: 15px;
+    }
+
+    .site-5th-section {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        background-color: #DA4533;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+
+    .bgc {
+        background-color: #000;
+    }
+
+    .center {
+        margin: 0 auto;
+    }
+
+    .section5_text1 {
+        width: 100%;
+        padding-top: 40px;
+        font-size: 24px;
+        text-align: center;
+        font-family: 'STIX Two Text', serif;
+        color: #fff;
+    }
+
+    .section5_text2 {
+        padding-top: 12px;
+        width: 320px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 22.4px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        margin: 0 auto;
+    }
+
+    .section5_img {
+        display: none;
+    }
+
+    .site-5th-insection {
+        width: 92%;
+        margin: 0 auto;
     }
 }
